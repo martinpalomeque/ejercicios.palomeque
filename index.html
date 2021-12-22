@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entregable 01 - Palomeque</title>
+
+</head>
+
+<script>
+    var anioActual = 2021
+    let entradaNombre = prompt("Ingrese su nombre");
+    let salidaNombre = "Hola " + entradaNombre + "!";
+    alert(salidaNombre);
+    let entradaEdad = prompt("¿Puedes indicarme su edad?");
+    let salidaEdad = "He notado que aún eres muy joven " + entradaNombre + "! Naciste en el año " + (anioActual - entradaEdad);
+    alert(salidaEdad);
+    let entradaMateria = prompt("¿Qué estás estudiando?");
+    let entradaEscuela = prompt("y ¿en dónde lo estás cursando?");
+    let salidaEstudios = "Solo las personas jóvenes, inteligentes y menores de " + entradaEdad + " se atreven a cursar " + entradaMateria + " en " + entradaEscuela + ". Felicitaciones " + entradaNombre + "!";
+    alert(salidaEstudios);
+</script>
